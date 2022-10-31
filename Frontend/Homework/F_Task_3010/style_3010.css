@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: rgb(76, 187, 144);
+    text-align: center;
+     }
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+p{  
+    color: white;
+    font-size: 12px;
+}
+
+
+.link{
+    width: 100%;
+    height: 18px;
+    background-color: black;
+    word-spacing: 20px;
+}
+
+a{  
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    margin-left: 8px;
+    }
+
+.general{
+    display: flex;
+    flex-direction:row;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 10px;
+}
+
+.Block1{
+    background-color: rgb(235, 235, 235);
+    }
+
+.about, .more, .title1, .title2 {
+    margin: 8px;
+    line-height: 8px;
+}
+
+.title2{
+     margin-top: 16px;
+}
+
+h2{
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+
+h3{
+    font-size: 5px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.image{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(185, 184, 184);
+    padding: 7px;
+    
+    }
+
+.text2{
+    color: black;
+    font-size: 7px;
+    
+}
+
+.text3{
+     color: rgb(68, 68, 68);
+     font-size: 7px;
+     margin: 4px 0 4px 0;
+}
+
+h4{
+    font-size: 8px;
+}
+
+.image4{
+    width: 400px;
+    height: 12px;
+    background-color: rgb(185, 184, 184);
+    padding: 6px;
+    margin-bottom: 7px;
+}
+.footer{
+    width: 100%;
+    height: 16px;
+    padding: 12px;
+    background-color: gainsboro;
+    text-align: center;
+}
