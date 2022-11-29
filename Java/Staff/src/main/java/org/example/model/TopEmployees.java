@@ -4,20 +4,20 @@ import org.example.Positions;
 import org.example.Program;
 import org.example.Staff;
 
-public class TopEmployees extends Staff implements Program {
-    public TopEmployees(String name, int age,
-                        int workExperience,
-                        Positions employee) {
-        super();
-    }
-
-    @Override
-    public void assesToProgram() {
-
-    }
-
-    public static void main(String[] args) {
-        TopEmployees elenaBelova = new TopEmployees("Лена Белова",
-                              42, 5, Positions.MANAGER);
-    }
+public abstract class TopEmployees extends Staff implements Program {
 }
+
+//    public TopEmployees(String name, String secondaryName, int id,
+//                        int yearStarted,
+//                        Positions employee) {
+//        super("Helena", "Belova");
+//    }
+//
+//    @Override
+//    public void assesToProgram() {
+//    }
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}

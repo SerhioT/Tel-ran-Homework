@@ -9,7 +9,7 @@ public enum Positions {
     KITCHEN_WORKER(100),     //Кухонный работник
     SALESMAN(128),           //Продавец
     SENIOR_SALESMAN(150),    //Старший продавец
-    MANAGER(85),           //Заведующая
+    MANAGER(85),             //Заведующая
     DIRECTOR(200);
 
     private int paymentHour;
